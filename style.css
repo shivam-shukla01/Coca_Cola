@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    
+   
+}
+.main {
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient( 180deg, red, rgb(105, 25, 25), rgb(56, 10, 10)); */
+    /* background-color: #000; */
+    color: #fff;
+
+}
+.home-part-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(Assests/one-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 0vw 5vw;
+   position: fixed;
+}
+
+.logo {
+    font-size: 5vh;
+    font-weight: 700;
+}
+.navbar ul {
+    display: flex;
+    gap: 50px;
+}
+.navbar ul a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+#menu {
+    font-size: 3vh;
+}
+
+.one {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#ice-peace1 {
+    width: 15%;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 0.5);
+    top: 60%;
+    left: 38%;
+}
+#ice-peace2 {
+    width: 15%;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 0.5);
+    top: 60%;
+    right: 37%;
+}
+
+#coca {
+    transition: all cubic-bezier(0.19, 1, 0.22, 0.5);
+    z-index: 99;
+}
+
+.one img {
+    position: absolute;
+    width: 45%;
+    top: 0%;
+}
+.one-text {
+    position: absolute;
+    width: 22%;
+    bottom: 22%;
+    right: 18%;
+}
+
+.part-2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+}
+.left-sec {
+    width: 50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-sec img {
+    width: 70%;
+
+}
+.right-sec {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-sec .content{
+    width: 60%;
+}
+.right-sec .content h1 {
+    font-size: 6vh;
+    margin-bottom: 10px;
+}
+.right-sec .content p {
+    font-size: 2.3vh;
+}
+
+.part-3 {
+    width: 100%;
+    height: 72vh;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+}
+.card {
+    height: 60vh;
+    width: 28%;
+    background-color: rgb(132, 11, 11);
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.card h1 {
+    font-size: 5vh;
+    
+}
+.card button {
+    padding: 0.6vw 2vw;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+ .card .card-content {
+    position: absolute;
+    bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card img {
+    position: absolute;
+    width: 55%;
+    bottom: 30%;
+}
+#card3 img {
+    width: 105%;
+}
