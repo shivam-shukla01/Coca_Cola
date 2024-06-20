@@ -22,7 +22,7 @@ tl.to("#ice-peace2", {
 var tl2 = gsap.timeline({scrollTrigger:{
     trigger: ".part-3",
     start: "0% 95%",
-    end: "50% 40%",
+    end: "50% 30%",
     scrub: true,
 }})
 

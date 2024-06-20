@@ -7,7 +7,7 @@
 html, body {
     width: 100%;
     height: 100vh;
-    
+    background-color: black;
    
 }
 .main {
@@ -33,6 +33,7 @@ html, body {
     align-items: center;
    padding: 0vw 5vw;
    position: fixed;
+   z-index: 99;
 }
 
 .logo {
@@ -89,7 +90,7 @@ html, body {
     position: absolute;
     width: 22%;
     bottom: 22%;
-    right: 18%;
+    right: 16%;
 }
 
 .part-2 {
@@ -129,7 +130,7 @@ html, body {
 
 .part-3 {
     width: 100%;
-    height: 72vh;
+    height: 90vh;
     display: flex;
     background-color: black;
     justify-content: space-between;
@@ -138,7 +139,8 @@ html, body {
 .card {
     height: 60vh;
     width: 28%;
-    background-color: rgb(132, 11, 11);
+    /* background-color: rgb(132, 11, 11); */
+    background: linear-gradient( 180deg, red, rgb(105, 25, 25), rgb(56, 10, 10));
     border-radius: 1vw;
     display: flex;
     align-items: center;
@@ -170,4 +172,199 @@ html, body {
 }
 #card3 img {
     width: 105%;
+}
+
+.part-4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+}
+.part4-card {
+    height: 80vh;
+    width: 29%;
+    background: linear-gradient( 180deg, red, rgb(105, 25, 25), rgb(56, 10, 10));
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-box {
+    width: 100%;
+    height: 40%;
+}
+.img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+.text-box {
+    width: 100%;
+    padding: 3vw 3.6vw;
+}
+.text-box #para-1 {
+    font-size: 1.6vw;
+    font-weight: 700;
+}
+.text-box #para-2 {
+    font-size: 1.4vw;
+    margin-top: 1.5vw;
+}
+
+.text-box .t1 {
+   display: flex;
+   margin-top: 4vw;
+   align-items: center;
+   gap: 1vw;
+   font-size: 1.5vw;
+}
+.text-box .t2 {
+    display: flex;
+    margin-top: 2.5vw;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1.5vw;
+ }
+ .text-box .t3 {
+    display: flex;
+    margin-top: 6.2vw;
+    align-items: center;
+    gap: 1vw;
+    font-size: 1.5vw;
+ }
+ .part-5 {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+ }
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .part-5 h1 {
+   font-size: 2.5vw;
+ }
+ .cards {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+    padding: 5vw 15vw;
+    align-items: center;
+    justify-content: center;
+ }
+
+.part-5 .cards .part-5-card {
+    width: 17vw;
+    height: 30vh;
+    background-color: white;  
+    border-radius: 1vw;
+    padding: 2vw 2vw 2vw 2.6vw;
+    overflow: hidden;
+    transition: all ease 0.6s;
+ }
+ .part-5 .cards .part-5-card:hover {
+    transform: scale(1.1);
+ }
+ .view-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .view-all button {
+    padding: 0.6vw 9vw;
+    border-radius: 3vw;
+    font-size: 1.1vw;
+    font-weight: 700;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-bottom: 3vw;
+ }
+
+ footer {
+    height: 70vh;
+    width: 100%;
+    padding: 7vw;
+ }
+
+ footer .first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid#b8b3b3;
+    padding-bottom: 4vw;
+ }
+footer .first button {
+    padding: 0.6vw 2vw;
+    border-radius: 2vw;
+    font-size: 1.1vw;
+    font-weight: 500;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+footer .first button i {
+    color: #fff;
+}
+
+footer .second {
+    display: flex;
+}
+
+footer .lists {
+    display: flex;
+    align-items: center;
+    gap: 8vw;
+    align-items: center;
+    
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+footer ul li {
+    list-style: none;
+}
+
+footer #ul-1 {
+    margin-top: 7.1vw;
+}
+#ul-1-li-1  {
+    font-size: 0.9vw;
+    color: #b8b3b3;
+}
+footer ul li{
+    font-size: 1.2vw;
+}
+#ul-3 {
+    margin-top: 3.2vw;
+}
+
+ footer #ul-4 {
+    display: flex;
+    flex-direction: row;
+}
+footer #ul-4 li {
+    font-size: 1.6vw;
+}
+
+.second {
+    border-bottom: 2px solid#b8b3b3;
+    padding-bottom: 4vw;
+}
+.third  {
+    display: flex;
+    justify-content: end;
+    padding: 4vw 0vw 6vw 0vw;
 }
